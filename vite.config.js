@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+    base: '/cooking/',
     server: {
         host: true,
         port: 5173,
